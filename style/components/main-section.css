@@ -1,0 +1,121 @@
+.main {
+    /*background-image: url(../../img/workingmama-5.png);
+    background-size: cover;
+    height: 637px;*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b9b9ef;
+}
+.main-block {
+    /*border: 1px solid #fff;*/
+    padding: 70px 0px;
+    display: flex;
+    /*justify-content: center;*/
+    flex-wrap: wrap;
+}
+.main-block h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.center {
+    text-align: center;
+    margin-bottom: 17px;
+    color: #fff;
+}
+.bg-pr {
+    background-color: #fff;
+    border-radius: 15px;
+}
+.bg-col-pr1 {
+    background-image: linear-gradient(135deg, #fb7abd, #6096fd);
+}
+.list {
+    padding: 0 15px;
+}
+.list li {
+    list-style-type: circle;
+    font-family: 'Roboto', sans-serif;
+}
+.ghjl {
+    border-bottom: 1px solid #6200ff26;
+    padding: 15px 0;
+}
+.dfh {
+    margin: 13px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+/*.section-main-1 {
+    height: 637px;
+}*/
+.grad {
+    background: linear-gradient(135deg, rgb(249 122 190 / 88%), rgb(100 150 252 / 71%)), url(../../img/office-932926_960_720.webp);
+    background-size: cover; 
+}
+.bkhgt {
+    /*background-color: aliceblue;*/
+    /*background: linear-gradient(45deg, rgb(208 157 247 / 58%),#ccff003d, #9ee1ffc9);*/
+    border-radius: 15px;
+    border: 1px solid rgb(178, 39, 190);
+}
+.bkhgt-1 {
+    border-radius: 15px;
+    border: 1px solid transparent;
+    background-image: linear-gradient(135deg, #fb7abd, #6096fd);
+}
+/*.bkhgt-1:hover {
+    background: transparent;
+    border: 1px solid rgb(178, 39, 190);
+}*/
+.bkhgt:hover {
+    background-image: linear-gradient(135deg, #fb7abd, #6096fd);
+    border: 1px solid transparent;
+}
+
+.margin {
+    margin-bottom: 20px;
+}
+.jdfh {
+    margin: 12px 0;
+}
+.center-fh {
+    text-align: center;
+}
+.ht-st {
+    border-top: 1px solid #ccc;
+}
+
+.col {
+    color: rgb(192 0 255 / 78%);
+}
+.col:hover {
+    color: rgb(66, 110, 231);
+}
+.bvn span,
+.bvn span::after,
+.bvn span::before{
+    background-color: #333;
+}
+
+
+.wert {
+    width: 75px;
+    height: 75px;
+    margin-right: 15px;
+    background: rgb(233 148 239 / 32%);
+    padding: 10px;
+    border-radius: 15px;
+}
+.card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.ghjsd {
+    margin-bottom: 7px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}

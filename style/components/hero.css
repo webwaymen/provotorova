@@ -1,0 +1,90 @@
+.hero {
+    background-color: #0A1340;
+}
+.title-hero , .sub-title {
+    color: #FFF;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sub-title , .sub-text {
+    margin: 20px 0;
+}
+.text-hero , .title-hero {
+    text-align: center;
+}
+.img-hero {
+    border-radius: 23px;
+    height: auto;
+    width: 100%;
+}
+@media (min-width: 1440px) and (max-width: 5000px) {
+    .title-hero {
+        font-size: 48px;
+        line-height: 64px;
+    }
+    .text-hero {
+        font-size: 19px;
+        line-height: 32px;
+        padding: 16px 0 24px;
+    }
+    .hero , .pdf {
+        padding: 80px 0;
+    }
+}
+@media (min-width: 1310px) and (max-width: 1440px) {
+    .title-hero {
+        font-size: 48px;
+        line-height: 64px;
+    }
+    .text-hero {
+        font-size: 19px;
+        line-height: 32px;
+        padding: 16px 0 24px;
+    }
+    .hero , .pdf {
+        padding: 80px 0;
+    }
+}
+@media (min-width: 770px) and (max-width: 1310px) {
+    .title-hero {
+        font-size: 40px;
+        line-height: 64px;
+    }
+    .text-hero {
+        font-size: 19px;
+        line-height: 32px;
+        padding: 16px 0 24px;
+    }
+    .hero , .pdf {
+        padding: 60px 0;
+    }
+}
+@media (min-width: 540px) and (max-width: 770px) {
+    .title-hero {
+        font-size: 32px;
+        line-height: 52px;
+    }
+    .text-hero {
+        font-size: 18px;
+        line-height: 26px;
+        padding: 16px 0 24px;
+    }
+    .hero , .pdf {
+        padding: 40px 0;
+    }
+}
+@media (min-width: 320px) and (max-width: 540px) {
+    .title-hero {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .text-hero {
+        font-size: 15px;
+        line-height: 24px;
+        padding: 16px 0 24px;
+    }
+    .hero , .pdf {
+        padding: 30px 0;
+    }
+}
